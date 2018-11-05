@@ -23,8 +23,8 @@ Or manually, after downloading into your `load-path`
 
 ## Use
 
-When the minor-mode is active, `clone-indirect-buffer-other-frame` is
-bound to `C-x 5 c`.
+When the `clone-indirect-buffer-other-frame-mode` minor-mode is
+active, `clone-indirect-buffer-other-frame` is bound to `C-x 5 c`.
 
 ## Example
 
