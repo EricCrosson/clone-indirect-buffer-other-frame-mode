@@ -3,7 +3,7 @@
 ;;; Copyright (C) 2018  Free Software Foundation, Inc.
 ;;
 ;; Author: Eric Crosson <eric.s.crosson@utexas.com>
-;; Version: 0.0.1
+;; Version: 1.0.0
 ;; Keywords: convenience
 ;; URL: https://github.com/EricCrosson/clone-indirect-buffer-other-frame-mode
 ;; Package-Requires: ((emacs "24"))
@@ -54,7 +54,6 @@ NEWNAME, DISPLAY-FLAG, and NORECORD passed directly to
   :init-value t
   :lighter nil
   :keymap (let ((map (make-sparse-keymap)))
-            ;; TODO: define keybindings and associated functions
             (define-key map (kbd "C-x 5 c") 'clone-indirect-buffer-other-frame)
             map)
   :global t
